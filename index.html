@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de CV</title>
+    <!--<link rel="stylesheet" href="/proyectoestilos/normalize.css">-->
+    <link rel="stylesheet" href="/proyectoestilos/stylos.css">
+    <script src="https://kit.fontawesome.com/2af9c19691.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="cv.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+ 
+<div class="encabezado">
+        <div class="titulo titulo2">
+            <h1>Ingeniera en Sistemas de la Comunicación</h1>
+        </div>
+        <div class="navegacion">
+            <nav>
+                <ul class="algo">
+                    <li>
+                        <a href="#info-personal">
+                            <p>Información personal</p>
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#habilidades">
+                            <p>Habilidades</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#experiencia">
+                            <p>Experiencia</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#formacion">
+                            <p>Formación</p>
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#otros">
+                            <p>Otros Estudios</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+</div>
+
+
+
+        <div class="todo">
+        <article>
+            <div class="caja" id="habilidades">
+                <h2>Habilidades <i class="fa-solid fa-star"></i></h2><br>
+                <ul>
+                    <li>
+                        <p>Pensamiento crítico</p>
+                    </li>
+                    <li>
+                        <p>Buenas habilidades de red</p>
+                    </li>
+                    <li>
+                        <p>Solución de problemas y conflictos</p>
+                    </li>
+                </ul>
+            </div> <!--tercera caja contenedora de habilidades-->
+
+
+            <div class="caja" id="experiencia">
+                <h2>Experiencia <i class="fa-solid fa-suitcase"></i></h2><br>
+                <ul>
+                    <li>
+                        <p>Desarrolladora web en Empresa de transporte aéreo</p>
+                    </li>
+                    <li>
+                        <p>Asesora comercial en Renault</p>
+                    </li>
+                    <li>
+                        <p>Asistente de ventas en Motomel</p>
+                    </li>
+                </ul>
+            </div> <!--cuarta caja contenedora de experiencia-->
+
+
+            <div class="caja" id="formacion">
+                <h2>Formación educativa <i class="fa-solid fa-graduation-cap"></i></h2><br>
+                <ul>
+                    <li>
+                        <p>Curso de Programación dictado por Argentina programa 4.0</p>
+                    </li>
+                    <li>
+                        <p>Faculta de Ingeniería</p>
+                    </li>
+                    <li>
+                        <p>Tecnicatura superior en Gestión y Administración</p>
+                    </li>
+                </ul>
+            </div> <!--quinta caja contenedora de formacion educativa-->
+
+
+            <div class="caja" id="otros">
+                <h2>Otros Estudios <i class="fa-solid fa-folder-closed"></i></h2><br>
+                <ul>
+                    <li>
+                        <p>Ingles e Italiano Avanzado</p>
+                    </li>
+                    <li>
+                        <p>Técnica electricista</p>
+                    </li>
+
+                </ul>
+            </div>
+        </article>
+        <div class="cajadeinfo">
+            <h2>Información Personal <i class="fa-sharp fa-solid fa-user"></i></h2>
+             <br>
+            <div class="infopersonal" id="info-personal">
+                <div class="imagen"><img src="foto2.jpg" alt="Mujer sonriendo"></div>
+        
+                <div>
+                    <p id="nombre"></p>
+                    <p id="apellido"></p>
+                    <p id="fecha_de_nacimiento"></p>
+                    <p id="email"></p>
+                    <p id="telefono"></p>
+                    <p id="direccion"></p>
+                </div>
+            </div>
+            </div> <!-- hasta aquí caja contenedora de datos personales e imagen-->
+
+        
+    </div>
+    <div class="buscar">
+        <button type="button"> Buscar </button>
+        <label for="nombre"></label>
+        <input type="text">
+    </div>
+    <script src="datos2.js"></script>
+</body>
+
+</html>
